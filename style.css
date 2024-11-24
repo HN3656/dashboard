@@ -1,0 +1,128 @@
+body{
+    font-family: "mulish";
+    background-image: url(./img/body-background-9e7d96f6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    color: aliceblue;
+}
+.pos{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:  #0165FC;
+    border: none;
+}
+.navbar{
+    position: fixed;
+    top: 15px;
+    width: 95%;
+    height: 50px;
+    margin: 15px;
+    padding: 1%;
+    background-color: #152238;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    border-radius: 20px;
+    
+}
+.subdiv2{
+    align-items: center;
+   margin-top: 10px;
+    
+}
+.image{
+  border-radius: 20px;
+ 
+}
+.navbar:hover{
+    border: 1px solid white;
+}
+.navdiv{
+    display: flex;
+}
+.img{
+    height: 15px;
+    color: aliceblue;
+}
+.btn{
+    border-right: none;
+    padding-left: 5px;
+    width: 200px;
+    height: 30px;
+    border-radius: 0px 20px 20px 0px;
+    border: 1px solid grey;
+    background: transparent;
+}
+.navbtn{
+    margin-left: 60%;
+    
+    
+}
+.btn1{
+    
+    width: 30px;
+    height: 30px;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+   border: 1px solid grey;
+    margin-right: -5px;
+    background-image: url(./img/images.png);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40px;
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  
+    display: flex;
+    margin: 150px 0px 0px 0px;
+    width: 100%;
+}
+.subdiv{
+    width: 40%;
+    padding: 17px;
+    margin: 20px;
+    background-color: #0F1226;
+    border-radius: 20px;
+}
+.par{
+    font-size: 12px;
+    color:rgb(170, 187, 212);
+}
+.money{
+    font-size: 22px;
+    
+}
+.per{
+ color: rgb(59, 181, 59);
+}
+.div2{
+    border-radius: 20px;
+    height: 310px;
+    margin: 20px;
+    padding: 30px 0px 0px 20px;
+    background-image: url(./img/cardimgfree.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.par2{
+    font-size: 15px;
+    color:rgb(170, 187, 212);
+}
+.head{
+    
+    font-size: 30px;
+}
+.tap{
+    margin-top: 120px;
+}
