@@ -38,7 +38,7 @@ body{
     top: 15px;
     width: 79%;
     right: 23px;
-    height: 50px;
+    
     margin: 15px;
     padding: 1%;
     background-color: #152238;
@@ -49,14 +49,19 @@ body{
     
 }
 .subdiv2{
+    text-align: center;
     align-items: center;
-   margin-top: 10px;
+ margin-top: 5px;
     
 }
-.image{
+.image11{
   border-radius: 20px;
  
 }
+.image{
+  margin-left: 5px;
+   
+  }
 .navbar:hover{
     border: 1px solid white;
 }
@@ -66,6 +71,9 @@ body{
 .img{
     height: 15px;
     margin-top: 3px;
+}
+.navmar{
+    margin-left: -6.5%;
 }
 .btn{
     border-right: none;
@@ -77,9 +85,10 @@ body{
     background: transparent;
 }
 .navbtn{
-    margin-left: 50%;
-    
-    
+    margin: 0% 1% 0% 68%;
+}
+.sign{
+   
 }
 .btn1{
     
@@ -106,11 +115,24 @@ body{
     width: 100%;
 }
 .subdiv{
+    display: flex;
     width: 19%;
     padding: 17px;
     margin: 5px;
     background-color: #0F1226;
     border-radius: 20px;
+    align-items: center;
+}
+.subdivimg{
+    border-radius: 20px;
+    height: 50px;
+    
+}
+.sub_div{
+    margin-left: 40%;
+}
+.sub_div1{
+    margin-left: 50%;
 }
 .par{
     font-size: 12px;
@@ -161,9 +183,16 @@ body{
     width: 93%;
     border-radius: 20px;
     background-color: #000435;
-    margin-top: 50%;
+    
     padding: 10px;
    text-align: center;
+}
+.sub_img{
+   margin: 15% 2% 12% 43%;
+    
+}
+.sub_img1{
+    border-radius: 50%;
 }
 .mar{
     margin-top: -3px;
@@ -256,6 +285,21 @@ width: 36%;
 height: 50%;
 border: 1px solid white;
 }
+.main2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.img10{
+    height: 30px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.content{
+    display: flex;
+   align-items: center;
+}
 .img11{
       margin-bottom: 2%;
       height: 22%;
@@ -274,7 +318,10 @@ display: flex;
     border-radius: 20px;
     background-color:  #010146;
 }
-
+.sub_img11{
+    height: 20px;
+    border-radius: 50%;
+}
 .list{
     border-bottom: 1px solid rgb(170, 187, 212);
     
@@ -293,4 +340,14 @@ display: flex;
     height: 22%;
     border-radius: 20px;
     background-color:  #010146;
+}
+.d2{
+    font-size: 15px;
+    margin: 0% 0% 0% 2%;
+}
+.par21{
+    margin-right: ;
+    font-family: "mulish";
+    font-size: 12px;
+    color:rgb(170, 187, 212);
 }
