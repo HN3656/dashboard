@@ -32,6 +32,15 @@ body{
     border-radius: 50%;
     background-color:  #0165FC;
     border: none;
+    background-image: url(./img/setting.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+}
+.posimg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
 .navbar{
     position: fixed;
