@@ -14,6 +14,7 @@ body{
     
 }
 .diva{
+    padding-top: 40px;
     width: 15%;
     background-color: #000435;
     border-radius: 20px;
@@ -21,7 +22,8 @@ body{
     left: 10px;
     top: 10px;
     bottom: 10px;
-
+    display: flex;
+    justify-content: center;
 }
 .divb{
     margin-left: 15%;
@@ -98,6 +100,7 @@ body{
     border-radius: 0px 20px 20px 0px;
     border: 1px solid grey;
     background: transparent;
+    background-color: #000435;
 }
 .navbtn{
     margin: 0% 1% 0% 68%;
@@ -113,6 +116,7 @@ body{
     border-right: none;
    border: 1px solid grey;
     margin-right: -5px;
+    background-color: #000435;
     background-image: url(./img/images.png);
     
     background-repeat: no-repeat;
