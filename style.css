@@ -15,12 +15,18 @@ body{
 }
 .diva{
     width: 15%;
-    border: 1px solid white;
+    background-color: #000435;
+    border-radius: 20px;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    bottom: 10px;
 
 }
 .divb{
+    margin-left: 15%;
     width: 85%;
-    border: 1px solid white;
+    
 }
 
 .pos{
